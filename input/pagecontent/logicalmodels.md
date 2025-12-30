@@ -7,7 +7,6 @@ This IG aims to conform to EHDS logical models, and provide the FHIR profiles ba
 EHDS draft logical models for eP and eD use case can be seen in [**Xt-EHR Implementation Guide**](https://www.xt-ehr.eu/fhir/models/useCasePrescription.html). The key models for this implementation guide are: 
 - [Medication Prescription Model](https://www.xt-ehr.eu/fhir/models/StructureDefinition-EHDSMedicationPrescription.html)
 - [Medication Dispense Model](https://www.xt-ehr.eu/fhir/models/StructureDefinition-EHDSMedicationDispense.html)
-
 - [Medication Model](https://www.xt-ehr.eu/fhir/models/StructureDefinition-EHDSMedication.html)  
 - [Dosaging Model](https://www.xt-ehr.eu/fhir/models/StructureDefinition-EHDSDosaging.html)
 
