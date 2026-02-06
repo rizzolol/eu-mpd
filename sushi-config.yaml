@@ -138,6 +138,7 @@ menu:
     Mapping to Profiles: profiles.html
     Examples: examples.html
     Implementation Notes: implementationnotes.html
+    Transactions: transaction.html
     IHE MPD IG: https://profiles.ihe.net/PHARM/MPD/ 
   About:
     Authors and Contributors: authors.html

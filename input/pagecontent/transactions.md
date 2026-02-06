@@ -1,0 +1,10 @@
+This implementation guide defines the data models that should be used for the exchange of European ePrescription and eDispensation information but does not define the exchange mechanisms by which this data flows between systems. More information on this relationship can be found in the [Scope](scope.html) section of this guide.
+
+While this guide focuses on content definition, a common set of aligned transactions is essential to achieving consistent, interoperable ePrescription and eDispensation workflows to achieve the key EHDS goal of cross-border dispensation.
+
+Accordingly, this implementation guide recommends that implementers consider using the data models defined herin in conjuction with the transactions specified in the base [IHE Medication Prescription and Dispense (MPD) specification](https://profiles.ihe.net/PHARM/MPD/) to accomplish ePrescription workflows in the cross-border context. 
+
+The following examples are a non-exhuastive list of how these transactions can be used to support these workflows:
+* A patient receives care outside of their home country. Their care provider is connected to the MyHealth@EU network, and the National Contact Point of the country of treatment uses the [PHARM-7: Retrieve Medication Orders](https://profiles.ihe.net/PHARM/MPD/pharm-7.html) transaction to obtain the patient’s active medication orders from the National Contact Point of the patient’s home country.
+* The patient is dispensed medication in the country of treatment and the National Contact Point of the country of treatment uses the [PHARM-8: Submit Medication Dispense](https://profiles.ihe.net/PHARM/MPD/pharm-8.html) transaction to report the dispensation to the National Contact Point of the patient’s home country.
+* A clinician prescribes a medication for a patient and the prescribing electronic health record system uses the [PHARM-5: Submit Medication Order](https://profiles.ihe.net/PHARM/MPD/pharm-5.html) transaction to submit an EEHRxF-formatted prescription to the national prescription repository, making it available for dispensation.
